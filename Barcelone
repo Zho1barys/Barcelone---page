@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #89f7fe, #66a6ff);
+            color: #333;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 8px 12px;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background: white;
+            color: black;
+            border-radius: 5px;
+        }
+        .content {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">BARCELONA</div>
+        <nav>
+            <a href="https://kk.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0_(%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB_%D0%BA%D0%BB%D1%83%D0%B1%D1%8B)">Тарихы</a>
+            <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BC%D0%BF_%D0%9D%D0%BE%D1%83">Стадион жайлы</a>
+            <a href="https://kk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%B0%D1%82:%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0_%D0%A4%D0%9A_%D0%BE%D0%B9%D1%8B%D0%BD%D1%88%D1%8B%D0%BB%D0%B0%D1%80%D1%8B">Үздік ойыншылар</a>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Welcome BARCELONA</h1>
+        <p>"Барселона" футбол клубы (FC Barcelona) — әлемдегі ең әйгілі және табысты футбол клубтарының бірі. Ол Испанияның Барселона қаласында орналасқан және Испания Ла Лигасында ойнайды. Клуб "Блауграна" (Blaugrana, "көк-қызыл") лақап атымен танымал.</p>
+        <p>"Барселона" "тик-так" ойыны (каталанша Tiki-Taka) арқылы танымал. Бұл стиль қысқа пас</p>
+    </div>
+    <footer>
+        &copy; 2024 BARCELONA. All rights reserved.
+    </footer>
+</body>
+</html>
